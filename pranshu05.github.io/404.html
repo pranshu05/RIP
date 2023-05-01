@@ -1,0 +1,150 @@
+<head>
+  <link rel="icon" href="https://raw.githubusercontent.com/pranshu05/pranshu05.github.io/master/img/img.png" type="image/png" sizes="20x20">
+  <!--basic meta tags-->
+  <meta name="title" content="Pranshu05">
+  <meta name="description" content="Hi, I am Pranshu Patel , welcome to my website, I am a full stack web developer,Game developer and Discord bot developer , u can contact me through mail pranshu05patel@gmail.com or using contact form.">
+  <meta property="og:image" content="https://i.imgur.com/BSdqVjc.png">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pranshu05.github.io/">
+  <meta property="og:title" content="Pranshu05">
+  <meta property="og:description" content="Hi, I am Pranshu Patel , welcome to my website, I am a full stack web developer,Game developer and Discord bot developer , u can contact me through mail pranshu05patel@gmail.com or using contact form.">
+  <meta property="og:image" content="https://i.imgur.com/BSdqVjc.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://pranshu05.github.io/">
+  <meta property="twitter:title" content="Pranshu05">
+  <meta property="twitter:description" content="Hi, I am Pranshu Patel , welcome to my website, I am a full stack web developer,Game developer and Discord bot developer , u can contact me through mail pranshu05patel@gmail.com or using contact form.">
+  <meta property="twitter:image" content="https://i.imgur.com/BSdqVjc.png">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <title>Pranshu05</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+html {
+  background: #161616;
+  color: #3dcfd3;
+  height: 100%;
+}
+    ::-webkit-scrollbar {
+  display: none;
+}
+.static {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -100px;
+  opacity: 0.05;
+  z-index: 1;
+}
+.error {
+  text-align: center;
+  font-family: Sora;
+  font-size: 95px;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60px;
+  right: 0;
+  animation: noise 2s linear infinite;
+  overflow: default;
+}
+.error:after {
+  content: '404';
+  font-family: Sora;
+  font-size: 100px;
+  font-weight: 170;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color:  #3dcfd3;
+  animation: noise-1 .2s linear infinite;
+}
+.info {
+  text-align: center;
+  font-family: Sora;
+  font-size: 15px;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 140px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: noise-3 1s linear infinite;
+}
+.error:before {
+  content: '404';
+  font-family: Sora;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: red;
+  animation: noise-2 .2s linear infinite;
+}
+
+@keyframes noise-1 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: -6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: 2px;}
+}
+
+@keyframes noise-2 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: 6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: -2px;}
+}
+
+@keyframes noise {
+  0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; transform: scaleY(1);}  
+  4.3% {opacity: 1; transform: scaleY(1.7);}
+  43% {opacity: 1; transform: scaleX(1.5);}
+}
+
+@keyframes noise-3 {
+  0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleY(1);}
+  4.3% {opacity: 1; transform: scaleY(4);}
+  43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
+}
+</style>
+<body>
+  <div class="error">404</div>
+  <br />
+  <br />
+  <span class="info">File not found <br>
+    <a href="/">Go Home</a>
+  </span>
+</body>
